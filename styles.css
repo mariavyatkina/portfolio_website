@@ -1,0 +1,201 @@
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: clamp(10px, 8vw, 20px);
+    font-weight: 600;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+p {
+    width: 60%;
+    font-size: 24px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.get-in-touch {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: tomato;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    animation: color;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+.button:hover {
+    opacity: 95%;
+}
+
+.small-heading {
+    color: tomato;
+}
+
+.big-heading {
+    font-family: Verdana;
+    font-size: clamp(35px, 8vw, 70px);
+    font-weight: 600;
+}
+
+.nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+    display: flex;
+}
+
+.nav__list-item {
+    text-align: right;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    transition: width 2s, height 4s;
+    margin: 70px auto;
+    padding: 10px;
+    width: 80%;
+    border: 2px solid aliceblue;
+    box-shadow: 7px 10px tomato;
+    margin: 70px auto;
+    animation: box-shadow-change;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+.page__header {
+    top: -1px;
+    margin: 0;
+    /*position: -webkit-sticky;*/
+    background-color: tomato;
+    animation: color;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+#colorchange {
+    animation: colorchange;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+.page__content {
+    background-color: midnightblue;
+    color: aliceblue;
+    display: flex;
+}
+
+.left-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+}
+
+.left-content i {
+    padding: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+.main-content {
+    flex: 16;
+    padding: 20px;
+    margin: 10px;
+    animation: flash;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+.main-content__section {
+    padding: 20px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    border: 2px solid aliceblue;
+    box-shadow: 4px 7px orangered;
+    animation: box-shadow-change;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+.subsection {
+    display: flex;
+    justify-content: center;
+}
+
+.subsection p {
+    margin: 30px;
+}
+
+@keyframes colorchange {
+    from {
+        color: tomato;
+    }
+    to {
+        color: lightseagreen;
+    }
+}
+
+@keyframes color {
+    from {
+        background-color: tomato;
+    }
+    to {
+        background-color: lightseagreen;
+    }
+}
+
+@keyframes box-shadow-change {
+    from {
+        box-shadow: 7px 10px tomato;
+    }
+    to {
+        box-shadow: 7px 10px lightseagreen;
+    }
+}
+
+@keyframes flash {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

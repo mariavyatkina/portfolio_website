@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--Go google "normalize css to see what this does!"-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <!--Link to our stylesheet-->
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+    <script src="https://kit.fontawesome.com/9fbe4919e7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+
+
+    <title>Maria Vyatkina</title>
+</head>
+
+<body class="page">
+    <!--- PAGE HEADER WITH NAV BAR AND LOGO --->
+    <header class="page__header">
+        <nav class="nav">
+            <ol class="nav__list">
+                <li class="nav__list-item"><a href="#about">About</a></li>
+                <li class="nav__list-item"><a href="#education">Education</a></li>
+                <li class="nav__list-item"><a href="#project">Projects</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <!--The rest of the page-->
+    <div class="page__content">
+
+        <!---Left column (will be small sidebar)--->
+        <div class="left-content">
+            <a href="mailto:mar.vtkn@gmail.com" class="left-content-item"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/maria-vyatkina/" class="left-content-item"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/mariavyatkina" class="left-content-item"><i class="fab fa-github"></i></a>
+        </div>
+
+        <!---Center column (will be page hero and content sections) --->
+        <main class="main-content">
+            <section id="hero" class="main-content__section">
+                <div>
+                    <div>
+                        <h1 class="big-heading">Maria Vyatkina.</h1>
+                        <h1 class="big-heading" style="color:lightcyan;">Full-Stack Developer.</h1>
+                        <h2 class="small-heading" id="colorchange">CURRENTLY LOOKING FOR NEW OPPORTUNITIES AND COLLABORATION.</h2>
+                    </div>
+                    <p>Feel free to email me about anything code-related, whether it is a job opening or a need for advice.<br><br>I would love to discuss it with you.
+                    </p>
+                    <div class="get-in-touch">
+                        <a href="mailto:mar.vtkn@gmail.com " class="button">Get in Touch</a>
+                    </div>
+            </section>
+            <section id="about" class="main-content__section">
+                <h2 class="section-heading">
+                    ABOUT ME
+                </h2>
+                <div class="subsection">
+                    <img src="images/me.jpg">
+                    <p>
+                        <strong id="colorchange">Hi, I am Maria</strong><br>A motivated boot camp graduate offering a strong foundation in software development and programming principles with proven success working within fast-paced, collaborative settings.
+                        Capable of effectively learning and applying new technical concepts.
+                        <br><br>
+                        <strong id="colorchange">Skills/Tools:</strong>
+                        <br><br> Java | Spring Boot/Spring MVC | JUnit | HTML5 | CSS | Bootstrap | SQL
+                    </p>
+                </div>
+            </section>
+            <section id="education" class="main-content__section">
+                <h2 class="section-heading">
+                    EDUCATION - PER SCHOLAS BOOTCAMP
+                </h2>
+                <div class="subsection">
+                    <p> <strong id="colorchange">March - June 2021</strong><br><br> Attended a 14-week Java coding bootcamp to learn how to develop dynamic web-based software systems using the Java programming language and platform including:<br> - Object-Oriented
+                        Programming: Java<br> - Web Application Development: HTML, CSS, JavaScript, Spring Boot, Tomcat <br> - Database Programming: JDBC, Table Design, SQL, MariaDB<br> - Development tools and techniques: Agile, Unit Testing (JUnit),
+                        Integration Testing, Git, Eclipse<br><br> Intensive software engineering training including development lifecycle formats, web design practices, Java principles, DBMS creation, server-side/ client-side development, and full-stack
+                        application implementation
+                    </p>
+                    <img src="images/perscholas.png">
+                </div>
+            </section>
+            <section id="project" class="main-content__section">
+                <h2 class="section-heading">
+                    PROJECT - BUDGETING APP
+                </h2>
+                <div class="subsection">
+                    <img src="images/budgeting.png">
+                    <p><strong id="colorchange">About</strong><br><br>A full-stack application for personal financing. It allows users to create an account to manage their monthly income/investments/expenses.<br><br>
+                        <strong id="colorchange">Purpose</strong><br><br> Budgeting is a powerful tool for effective management of your personal finances. Keeping track of your monthly transactions has never been more accessible. Budgeting provides the
+                        snapshot of your spending and investments, which allows you to manage your finances with confidence and ease.<br> <br><br>
+                        <a href="https://github.com/mariavyatkina/budgeting_app/tree/master" class="button" target="_blank">Code</a> <a href="https://personal-budgeting-app.herokuapp.com/" class="button" target="_blank">Live</a>
+                    </p>
+
+                </div>
+            </section>
+        </main>
+
+        </div>
+</body>
+
+</html>
