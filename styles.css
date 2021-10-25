@@ -31,12 +31,7 @@ p {
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 7px;
-    animation: color;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-duration: 5s;
-    animation-direction: alternate;
+
 }
 
 .button:hover {
@@ -75,12 +70,7 @@ section {
     border: 2px solid aliceblue;
     box-shadow: 7px 10px tomato;
     margin: 70px auto;
-    animation: box-shadow-change;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-duration: 5s;
-    animation-direction: alternate;
+
 }
 
 .page__header {
@@ -88,22 +78,9 @@ section {
     margin: 0;
     /*position: -webkit-sticky;*/
     background-color: tomato;
-    animation: color;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-duration: 5s;
-    animation-direction: alternate;
+ 
 }
 
-#colorchange {
-    animation: colorchange;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-duration: 5s;
-    animation-direction: alternate;
-}
 
 .page__content {
     background-color: midnightblue;
@@ -147,12 +124,7 @@ img {
     margin: 30px;
     border: 2px solid aliceblue;
     box-shadow: 4px 7px orangered;
-    animation: box-shadow-change;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-duration: 5s;
-    animation-direction: alternate;
+
 }
 
 .subsection {
@@ -164,32 +136,8 @@ img {
     margin: 30px;
 }
 
-@keyframes colorchange {
-    from {
-        color: tomato;
-    }
-    to {
-        color: lightseagreen;
-    }
-}
 
-@keyframes color {
-    from {
-        background-color: tomato;
-    }
-    to {
-        background-color: lightseagreen;
-    }
-}
 
-@keyframes box-shadow-change {
-    from {
-        box-shadow: 7px 10px tomato;
-    }
-    to {
-        box-shadow: 7px 10px lightseagreen;
-    }
-}
 
 @keyframes flash {
     from {
